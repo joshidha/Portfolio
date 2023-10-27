@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+#about-page
+{
+    margin-top:3em;
+}
+.about-Header{
+    text-align: center;
+    background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#about
+{
+    background-color: rgb(255, 255, 255);
+    display:grid;
+    grid-template-columns:1fr 4fr;
+    padding:3em 4em;
+    grid-gap:1em;
+    color:rgb(0, 0, 0);
+}
+#about img{
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+#about img:hover{
+   transform: scale(1.2);
+}
+.profileDescription{
+    padding: 0.5em 2em;
+}
+.profileDescription h1{
+    margin-bottom: 0.4em;
+}
+.role
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    margin-bottom:0.8em;
+}
+.role-description{
+    font-family: 'Roboto', sans-serif;
+}
+@media(max-width:750px)
+{
+    #about
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:3em 1em;
+    }
+    .profileDescription
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profileDescription h1{
+        margin-bottom: 0.2em;
+    }
+}
+@media(max-width:400px)
+{
+    #about
+    {
+        padding:3em 0.2em;
+    }
+    .profileDescription h1
+    {
+        font-size: 1.4em;
+    }
+    .role{
+        font-size: 0.9em;
+    }
+    #about img
+    {
+        width:200px;
+    }
+}

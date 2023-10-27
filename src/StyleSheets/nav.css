@@ -1,0 +1,67 @@
+.Nav{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgba(0, 0, 0);
+    color:rgba(255, 255, 255);
+    padding:1em 2em;
+    position: sticky;
+    top:0px;
+    border-width: 0px;
+}
+.user-name
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+#navbar
+{
+    color:rgba(255, 255, 255, 0.1);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+.nav-item a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    color:rgba(255, 255, 255, 0.6);
+    transition: all 1s ease-in;
+}
+.nav-item a:hover{
+    color:white;
+}
+.hamIcon, .closeIcon{
+    display: none;
+}
+@media(max-width:1000px)
+{
+    .Nav{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width:700px)
+{
+    #navbar{
+        display: none;
+    }
+    .hamIcon{
+        display: block;
+    }
+    .Nav{
+        grid-template-columns: 1fr;
+    }
+    .first-half
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    #navbar
+    {
+        margin:0.4em;
+    }
+    .nav-item{
+        padding:0.2em;
+    }
+}
+

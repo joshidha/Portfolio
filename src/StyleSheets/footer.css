@@ -1,0 +1,30 @@
+#p-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#p-footer h2{
+    margin-bottom: 0.7em;
+    background: -webkit-linear-gradient(#0f3164, #79aaf5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-icon a{
+    padding: 0.5rem;
+}
+.contact-icon a svg{
+    color:#0303028c;
+    transition: all 1s ease-in-out;
+}
+.contact-icon a svg:hover{
+    color:blue;
+    transform: scale(1.3);
+}
+@media(max-width:285px)
+{
+    #p-footer h2
+    {
+        font-size: 1.2rem;
+    }
+}
