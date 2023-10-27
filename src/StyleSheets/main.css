@@ -15,20 +15,23 @@
 #intro h3{
     font-family: 'Libre Baskerville', serif;
     font-size:1.5rem;
-    background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
+    color:white;
+    /* background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 #intro h1{
     font-family: 'Montserrat', sans-serif;
-    background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
+    color:white;
+    /* background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 #intro h5{
-    background: -webkit-linear-gradient(#F5F7FA, #9da159);
+    /* background: -webkit-linear-gradient(#F5F7FA, #9da159);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+    color:white;
     font-size:2rem;
 }
 @media(max-width:600px)

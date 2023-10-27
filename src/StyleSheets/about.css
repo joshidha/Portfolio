@@ -5,9 +5,10 @@
 }
 .about-Header{
     text-align: center;
-    background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
+    color:rgb(85, 226, 231);
+    /* background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 #about
 {

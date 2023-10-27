@@ -33,9 +33,7 @@
 .projects-head
 {
     text-align: center;
-    background: -webkit-linear-gradient(#F5F7FA, #79aaf5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color:rgb(85, 226, 231);
 }
 
 @media(max-width:750px)
