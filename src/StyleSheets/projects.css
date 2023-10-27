@@ -42,6 +42,10 @@
     {
         grid-template-columns: 1fr 1fr;
     }
+    .p:hover
+    {
+        transform: scale(1);
+    }
 }
 @media(max-width:600px)
 {

@@ -32,7 +32,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://joshidha.github.io/myPortfolio",
+  "homepage": "https://joshidha.github.io/Portfolio",
   "browserslist": {
     "production": [
       ">0.2%",
